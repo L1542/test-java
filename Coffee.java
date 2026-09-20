@@ -16,7 +16,8 @@ public class Coffee {
         }
          
         public static void showMenu() {
-            System.out.println(); System.out.println("--------เมนูสินค้า---------"); 
+            System.out.println();
+            System.out.println("--------เมนูสินค้า---------"); 
             for (int i = 0; i < menu.length; i++) 
                 System.out.println((i + 1) + ". " + menu[i] + "\t" +String.format("%.2f", bath[i]) + " บาท");
              System.out.println("0. จบการสั่งซื้อ");
